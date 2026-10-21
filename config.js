@@ -5,3 +5,4 @@ const CHAIN = "Robinhood Chain";
 const CA = "0xCommingSoon";
 const X_LINK = "https://x.com/";
 const BUY_LINK = "#"; // set a real swap URL once CA is live
+const SOCIAL_LINK = "https://x.com/captain__crunch/status/2112519017701286146";

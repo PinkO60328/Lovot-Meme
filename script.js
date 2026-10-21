@@ -7,3 +7,4 @@ document.querySelectorAll('.js-buy').forEach(a=>{
   else{a.href="#";a.classList.add('disabled');a.setAttribute('aria-disabled','true');a.textContent="Buy "+SYMBOL+" · Coming Soon";a.onclick=e=>e.preventDefault();}
 });
 document.getElementById('copy').onclick=()=>{navigator.clipboard.writeText(CA);const b=document.getElementById('copy');b.textContent='Copied! ♡';setTimeout(()=>b.textContent='Copy',1500)};
+document.querySelectorAll('.js-social').forEach(a=>a.href=SOCIAL_LINK);
